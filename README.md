@@ -4,14 +4,10 @@ default settings for HLS live streaming. Built on Alpine Linux.
 
 * Nginx 1.21.0 (Mainline version compiled from source)
 * nginx-rtmp-module 1.2.2 (compiled from source)
+* http_auth_request_module 
 * ffmpeg 4.4 (compiled from source)
 * Default HLS settings (See: [nginx.conf](nginx.conf))
-
-[![Docker Stars](https://img.shields.io/docker/stars/alfg/nginx-rtmp.svg)](https://hub.docker.com/r/alfg/nginx-rtmp/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/alfg/nginx-rtmp.svg)](https://hub.docker.com/r/alfg/nginx-rtmp/)
-[![Docker Automated build](https://img.shields.io/docker/automated/alfg/nginx-rtmp.svg)](https://hub.docker.com/r/alfg/nginx-rtmp/builds/)
-[![Build Status](https://travis-ci.org/alfg/docker-nginx-rtmp.svg?branch=master)](https://travis-ci.org/alfg/docker-nginx-rtmp)
-
+[DOCKER IMAGE](https://hub.docker.com/r/shefferalex/nginx-rtmp-auth/tags)
 ## Usage
 
 ### Server

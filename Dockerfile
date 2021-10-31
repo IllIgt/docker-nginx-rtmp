@@ -45,6 +45,7 @@ RUN cd /tmp/nginx-${NGINX_VERSION} && \
   --prefix=/usr/local/nginx \
   --add-module=/tmp/nginx-rtmp-module-${NGINX_RTMP_VERSION} \
   --conf-path=/etc/nginx/nginx.conf \
+  --with-http_auth_request_module \
   --with-threads \
   --with-file-aio \
   --with-http_ssl_module \
